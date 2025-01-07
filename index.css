@@ -1,16 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
+    margin: 20px;
+    padding: 20px;
+    background-color: #ece5e5;
     color: #333;
 }
 
-.container, .container2, .container3, .container4, .container5 {
+.container, .container2, .container3, .container4, .container5, .container6 {
     margin: 20px auto;
     padding: 20px;
-    max-width: 1200px;
-    background-color: #fff;
+    background-color: #d7bfbf;
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -21,14 +20,68 @@ h1, h2, h3, h4 {
     color: #444;
 }
 
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+ul p {
+    margin: 0;
+}
+
 img {
-    max-width: 500px;
+    max-width: 1000px;
     height: auto;
     display: block;
     margin: 10px auto;
 }
 
-/* Header Sections */
+.img2 {
+    float: right;
+    margin: 100px;
+    padding: 5px;
+}
+
+.img3 {
+    float: left;
+    margin: 50px;
+    padding: 10px;
+}
+
+.img4 {
+    float: center;
+}
+
+.img5 {
+    float: right;
+    margin: 10px;
+    padding: 5px;
+}
+
+.img6 {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.img7 {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.img8 {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+
 .head, .head2, .head3, .head4, .h2, .h3 {
     text-align: center;
     margin: 20px 0;
@@ -36,22 +89,21 @@ img {
 }
 
 .head h1 {
-    font-size: 2.5rem;
+    font-size: 50px;
 }
 
 .head2 h2, .h2 h2 {
-    font-size: 2rem;
+    font-size: 30px;
 }
 
 .head3 h3, .h3 h3 {
-    font-size: 1.75rem;
+    font-size: 25px;
 }
 
 .head4 h4 {
-    font-size: 1.5rem;
+    font-size: 20px;
 }
 
-/* Specific Sections */
 .p {
     margin: 20px 0;
     padding: 10px;
@@ -69,7 +121,7 @@ img {
 
 .prim {
     font-style: italic;
-    color: #555;
+    color: #575656;
     margin: 15px 0;
     padding: 10px;
     background-color: #f4f4f4;
@@ -78,14 +130,13 @@ img {
 
 .klavjamis {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: center;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
 }
 
 .klav, .miska {
-    flex: 1 1 calc(50% - 20px);
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 6px;
@@ -97,7 +148,6 @@ img {
     text-align: center;
 }
 
-/* Printer Section */
 .printer {
     display: flex;
     flex-wrap: wrap;
@@ -106,17 +156,17 @@ img {
 }
 
 .matprinter, .stprinter, .lazprinter {
-    flex: 1 1 calc(33% - 20px);
     border: 1px solid #ddd;
     padding: 15px;
     border-radius: 6px;
     background-color: #fafafa;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1; 
+    text-align: center;  
+    max-width: 30%;
 }
 
 .imgp {
     display: block;
+    height: 200px;
     margin: 10px auto;
-    max-width: 100%;
-    height: auto;
 }
